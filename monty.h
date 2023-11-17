@@ -1,7 +1,7 @@
-#ifndef MONTY_H
-#define MONTY_H
+#ifndef _MONTY_H_
+#define _MONTY_H_
 
-#define _GNU_SOURCE
+#define _GNU_SOURCE_
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
@@ -81,4 +81,4 @@ void more_err(int error_code, ...);
 void string_err(int error_code, ...);
 void rotr(stack_t **, unsigned int);
 
-#endif
+#endif /*_MONTY_H_*/
